@@ -1833,7 +1833,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffffe4;
+  background: #4ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3014,6 +3014,24 @@ pre .javascript .function {
 }
 .with-love {
   color: #ff71a8;
+}
+main-inner {
+  margin-top: 60px;
+  padding: 60px 60px 60px 60px;
+  background: #fff;
+  opacity: 0.8;
+  min-height: 500px;
+}
+@media screen and (min-width: 1200px) {
+  body {
+    background-image: url("/images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+  }
+  #footer a {
+    color: #eee;
+  }
 }
 @-moz-keyframes heartAnimate {
   0%, 100% {
